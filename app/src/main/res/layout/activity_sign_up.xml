@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/editText"
+        android:hint="@string/nameHint"/>
+
+    <EditText
+        android:id="@+id/editTextDateOfBirth"
+        style="@style/editText"
+        android:hint="@string/dateOfBirthHint"
+        android:clickable="true"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        style="@style/editText"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailHint"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        style="@style/editText"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:hint="@string/passwordHint"/>
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        style="@style/genericStyle"
+        android:text="@string/buttonSignUp"/>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        style="@style/genericStyle"
+        android:text="@string/buttonCancel"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+
+    <!--button text-->
+    <string name="buttonLogin">Login</string>
+    <string name="buttonSignUp">Sign Up</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonSendEmail">Send Email</string>
+    <!--editText hints-->
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="nameHint">Name</string>
+    <string name="dateOfBirthHint">Date of birth</string>
+    <!--textView text-->
+    <string name="textViewResetPassword">Reset Password</string>
+
+</resources>
